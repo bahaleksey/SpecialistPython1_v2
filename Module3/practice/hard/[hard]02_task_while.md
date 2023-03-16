@@ -34,3 +34,20 @@ n = 3
 ```python
 # TODO: you code here...
 ```
+n = 8
+symbol = "#"
+empty = " "
+i = 0
+while i < n:
+    j = 0
+    string = ''
+    while j < n:
+        if i == j or i+j == n-1:
+            string += symbol
+        else:
+            string += empty
+        j += 1
+    print(string)
+    i += 1
+
+```
